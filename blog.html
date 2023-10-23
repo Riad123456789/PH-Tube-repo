@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class=" max-w-7xl mx-auto pt-10 pb-28">
+    <h class="text-xl font-semibold"><span class="underline">Question-1</span> : Discuss the scope of var, let, and
+        const</h><br><br>
+
+    <p class=""> (1).<span class="font-bold">var</span> has function scope and is hoisted, allowing reassignment within
+        and outside blocks.<br><br>
+        (2).<span class="font-bold">let</span> has block scope, is hoisted, prevents variable redeclaration, and allows
+        reassignment within its block.<br><br>
+        (3).<span class="font-bold">const</span> has block scope, is hoisted, prevents variable redeclaration, and is
+        immutable after assignment, unless
+        assigned to objects or arrays, allowing property or element modification.</p><br><br><br>
+
+
+    <h class="text-xl font-semibold"><span class="underline">Question-2</span> :Tell us the use cases of null and
+        undefined</h>
+    <br><br>
+
+    <p class="font-bold">Use cases of undefined:</p>
+    <p>
+        1. Variable Initialization: It represents variables that have been declared but not yet assigned a value.<br>
+        2. Function Parameters: It can be used to check if a function parameter has been provided.<br>
+        3. Object Properties: When accessing non-existent object properties, they return undefined.<br>
+        4. Default Function Return Value: Functions that do not return explicitly have an implicit return of
+        undefined.<br>
+        5. Empty Array Slots: Unassigned array elements contain undefined.<br><br>
+    </p>
+    <p class="font-bold">Use cases of undefined:</p>
+    <p>
+        1. Intentional Absence of Value: It is used to indicate that a variable or object property should intentionally
+        have no value.<br>
+        2.Clearing a Variable or Object Property: It can be assigned to a variable or object property to clear or reset
+        it to no value.<br>
+        3. Sentinel Value: It's sometimes used as a placeholder to signify missing data or unavailable values in
+        specific use cases.<br>
+    </p> <br><br>
+
+    <h class="text-xl font-semibold"><span class="underline">Question-2</span> :What do you mean by REST API?</h>
+    <br><br>
+
+    <p>
+        1. Resources: In a RESTful architecture, resources are the key abstractions that clients interact with. These
+        resources can represent entities like objects, data, or services.<br>
+
+        2. HTTP Verbs (Methods): REST APIs use standard HTTP methods (GET, POST, PUT, DELETE, etc.) to perform CRUD
+        (Create, Read, Update, Delete) operations on resources. These methods are used to indicate the desired action on
+        a resource.<br>
+
+        3. Uniform Resource Identifier (URI): Each resource is identified by a unique URI (Uniform Resource Identifier),
+        which is used to access and manipulate the resource. URIs provide a consistent way to locate and address
+        resources.<br>
+
+        4. Statelessness: A RESTful API is stateless, which means that each request from a client to a server must
+        contain
+        all the information needed to understand and process the request. There should be no session state stored on the
+        server between requests.<br>
+
+        5. Representation: Resources can have multiple representations (e.g., JSON, XML, HTML) that can be used for data
+        exchange between the client and the server. Clients can specify the desired representation using the Accept
+        header in the request.
+    </p>
+
+
+</body>
+
+</html>
