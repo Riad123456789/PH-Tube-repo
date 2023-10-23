@@ -15,8 +15,8 @@
             <div class="navbar-start">
                 <img src="./images/Logo.png" alt="">
             </div>
-            <div class="navbar-center  lg:flex mt-3">
-                <button class="btn btn-sm">Sort by view</button>
+            <div class="navbar-center ml-6  lg:flex items-center mt-3" id="sort-container">
+                <button onclick="handlesort()" class="btn btn-sm" >Sort by view</button>
             </div>
             <div class="navbar-end">
                 <a class="btn btn-sm">Blog</a>
@@ -29,11 +29,22 @@
         </div>
     </header>
 
-    <main class=" mt-10">
+    <main class=" mt-10" id="main-container">
+
+        <div class="justify-center   grid gap-4 md:grid-cols-3  lg:grid-cols-4 " id="sort-by-view-container">
+
+        </div>
+
+
+        <div class=" flex justify-center mt-14 " id="data-container">
+
+        </div>
+
 
         <div class="justify-center   grid gap-4 md:grid-cols-3  lg:grid-cols-4 " id="all-data">
 
         </div>
+
 
     </main>
 
